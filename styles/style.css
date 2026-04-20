@@ -15,7 +15,6 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* Grid */
 .project-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -24,7 +23,6 @@ h2 {
   padding: 0;
 }
 
-/* Card */
 .project-card {
   width: 100%;
   text-align: left;
@@ -55,7 +53,6 @@ h2 {
   color: #aaa;
 }
 
-/* Modal */
 dialog {
   border: none;
   border-radius: 12px;
