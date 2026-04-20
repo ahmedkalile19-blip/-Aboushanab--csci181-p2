@@ -3,7 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <script src="/scripts/modal.js" defer></script>
+    <title>Project 2</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section>
+        <h2>Projects</h2>
+        <ul class="project-list">
+          <li>
+            <article>
+              <button type="button" class="project-card" data-index="0">
+                <h3>Project 1</h3>
+                <p>Description of Project 1</p>
+              </button>
+            </article>
+          </li>
+          <li>
+            <article>
+              <button type="button" class="project-card" data-index="1">
+                <h3>Project 2</h3>
+                <p>Description of Project 2</p>
+              </button>
+            </article>
+          </li>
+          <li>
+            <article>
+              <button type="button" class="project-card" data-index="2">
+                <h3>Project 3</h3>
+                <p>Description of Project 3</p>
+              </button>
+            </article>
+          </li>
+          <li>
+            <article>
+              <button type="button" class="project-card" data-index="3">
+                <h3>Project 4</h3>
+                <p>Description of Project 4</p>
+              </button>
+            </article>
+          </li>
+          <li>
+            <article>
+              <button type="button" class="project-card" data-index="4">
+                <h3>Project 5</h3>
+                <p>Description of Project 5</p>
+              </button>
+            </article>
+          </li>
+          <li>
+            <article>
+              <button type="button" class="project-card" data-index="5">
+                <h3>Project 6</h3>
+                <p>Description of Project 6</p>
+              </button>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <dialog id="project-modal" tabindex="-1">
+      <button class="close-btn" id="modal-close">Close</button>
+      <h3 id="modal-title"></h3>
+      <p id="modal-details"></p>
+      <a id="modal-link" href="#" target="_blank">View Project</a>
+    </dialog>
+  </body>
 </html>
